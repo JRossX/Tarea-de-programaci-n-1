@@ -20,7 +20,7 @@ public class Smpractica3 {
         int vuelta = 0;
         int promediovuelta = 0;
         int porcentaje = 0;
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 10; i++) {
             String pitsLectura = JOptionPane.showInputDialog("Ingrese el tiempo de los pits: ");
             pits = Integer.parseInt(pitsLectura);
             promediopits = promediopits + pits;
